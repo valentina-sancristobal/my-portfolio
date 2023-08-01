@@ -220,6 +220,11 @@
     width: 90%;
     max-width: 40em;
     margin: 1em 0;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
   
     display: grid;
     grid-template-columns: repeat( auto-fit , minmax( 15rem , 1fr) );
