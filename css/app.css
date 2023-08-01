@@ -207,7 +207,7 @@
   .seccion .h2{
     font-family: var(--tipo-titular);
     font-weight: 600;
-    font-size: 4em;
+    font-size: 3.7em;
     line-height:1em;
     color:var(--blanco);
     mix-blend-mode: exclusion; 
