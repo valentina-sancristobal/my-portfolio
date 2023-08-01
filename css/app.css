@@ -73,12 +73,6 @@
     background-color: var(--negro);
     color: var(--blanco);
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     cursor: none;
@@ -153,7 +147,7 @@
   
   }
   .header .li{
-    margin:0 2em;
+    margin:0 1em;
     z-index: 1;
   }
   .main{
@@ -213,14 +207,14 @@
   .seccion .h2{
     font-family: var(--tipo-titular);
     font-weight: 600;
-    font-size: 5em;
+    font-size: 4em;
     line-height:1em;
     color:var(--blanco);
     mix-blend-mode: exclusion; 
   }
   .seccion .h3{
     font-family: var(--tipo-titular);
-    font-size: 4.3em;
+    font-size: 4em;
   }
   .seccion .grid{
     width: 90%;
@@ -274,10 +268,24 @@
   }
   .projects{
     color:var(--blanco);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
   }
   .projects .h2{
     margin: 3rem 0 1rem;
     color:inherit;
+    
+  }
+
+  .about{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     
   }
   .about .h2{
